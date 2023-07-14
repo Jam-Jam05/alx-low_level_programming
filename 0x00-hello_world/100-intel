@@ -1,0 +1,9 @@
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+printf("gcc -S -masm=intel $CFILE")
+return (0);
