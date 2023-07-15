@@ -2,9 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *program to assign random number
  *main - Entry point
- *return:Always 0 (success)
+ *return: Always 0 (success)
 */
 int main(void)
 {
@@ -18,6 +17,5 @@ int main(void)
 	printf("%d is zero\n", n);
 	else
 	printf("%d is negative\n", n);
-	/* your code goes there */
 	return (0);
 }
