@@ -6,21 +6,19 @@
 int main(void)
 {
 	int j = 48;
-	char k = 97;
+	char k;
 
-	j = 'a';
-	k = 0;
 	while (j <= 57)
 	{
 		putchar(j);
-			j++;
-}
-	while (k <= 102)
-{
-	putchar(k);
-	k++;
-}
-putchar('\n');
-return (0);
+		j++;
+	}
+	for (k = 'a'; k <= 'f'; k++)
+	{
+		putchar(k);
+	}
+	putchar('\n');
+
+	return (0);
 }
 
