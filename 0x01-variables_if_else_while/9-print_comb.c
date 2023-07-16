@@ -5,11 +5,16 @@
  */
 int main(void)
 {
-	char long t = 48;
+	char t = 48;
 
 	while (t <= 57)
 	{
 		putchar(t);
+		if (t != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		t++;
 	}
 	putchar('\n');
