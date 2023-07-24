@@ -1,4 +1,3 @@
-#include "main.h"
 /**
 *_strlen - function to get the len of a string
 *
